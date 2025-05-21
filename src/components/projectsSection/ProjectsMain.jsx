@@ -1,28 +1,42 @@
+"use client";
+
 import React from "react";
 import { ProjectsText } from "./ProjectsText";
 import { SingleProject } from "./SingleProject";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../framerMotion/variants";
+
+const MotionDIV = motion("div");
+
 const projects = [
   {
     name: "To Do List",
-    year: "2022",
+    year: "2023",
     align: "right",
     image: "/images/toDoList.png",
     link: "https://todolist-production-3ebf.up.railway.app",
   },
   {
     name: "Keeper App",
-    year: "2024",
+    year: "2025",
     align: "left",
     image: "/images/keeper.png",
-    link: "#",
+    link: "https://keeper-production-c8b5.up.railway.app",
   },
 ];
 
 export const ProjectsMain = () => {
   return (
     <div id="projects" className="max-w-[1200px] mx-auto px-4">
-      <ProjectsText />
-      <div>
+      <MotionDIV
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.7 }}
+      >
+        <ProjectsText />
+      </MotionDIV>
+      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
         {projects.map((item, index) => {
           return (
             <SingleProject
