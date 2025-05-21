@@ -1,9 +1,11 @@
 import { AboutMeMain } from "@/components/aboutMeSection/AboutMeMain";
+import { ExperienceMain } from "@/components/experienceSection/ExperienceMain";
 import { HelperSection } from "@/components/HelperSection";
 import { HeroGradient } from "@/components/heroSection/HeroGradient";
 import { HeroMain } from "@/components/heroSection/HeroMain";
 import { SubHeroSection } from "@/components/heroSection/SubHeroSection";
 import { NavbarMain } from "@/components/navbar/NavbarMain";
+import { ProjectsMain } from "@/components/projectsSection/ProjectsMain";
 import { AllSkillsSM } from "@/components/skillsSection/AllSkillsSM";
 import { SkillsMain } from "@/components/skillsSection/SkillsMain";
 import { SubSkills } from "@/components/skillsSection/SubSkills";
@@ -19,6 +21,8 @@ export default function Home() {
       <AboutMeMain />
       <SkillsMain />
       <SubSkills />
+      <ExperienceMain />
+      <ProjectsMain />
       <HelperSection />
     </main>
   );
