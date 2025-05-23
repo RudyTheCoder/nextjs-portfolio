@@ -13,7 +13,7 @@ import { SingleSkill } from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const MotionDIV = motion("div");
+const MotionDIV = motion.create("div");
 
 const skills = [
   {

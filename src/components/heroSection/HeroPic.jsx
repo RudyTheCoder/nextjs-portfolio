@@ -7,7 +7,7 @@ import { CgSpinnerTwoAlt } from "react-icons/cg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const MotionDIV = motion("div");
+const MotionDIV = motion.create("div");
 
 export const HeroPic = () => {
   return (
