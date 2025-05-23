@@ -4,7 +4,7 @@ import { SingleExperience } from "./SingleExperience";
 
 const experiences = [
   {
-    job: "Major - Computer Science",
+    job: "B.S. in Computer Science",
     company: "Cal State East Bay",
     date: "2019 - 2023",
     responsibilities: [

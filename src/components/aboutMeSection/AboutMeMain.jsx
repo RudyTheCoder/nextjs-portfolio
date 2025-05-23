@@ -6,7 +6,7 @@ import { AboutMeImage } from "./AboutMeImage";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const MotionDIV = motion("div");
+const MotionDIV = motion.create("div");
 
 export const AboutMeMain = () => {
   return (

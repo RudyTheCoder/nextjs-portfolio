@@ -7,7 +7,7 @@ import { AllSkillsSM } from "./AllSkillsSM";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const MotionDIV = motion("div");
+const MotionDIV = motion.create("div");
 
 export const SkillsMain = () => {
   return (

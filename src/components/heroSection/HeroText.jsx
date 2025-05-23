@@ -4,9 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
-const MotionH2 = motion("h2");
-const MotionH1 = motion("h1");
-const MotionP = motion("p");
+const MotionH2 = motion.create("h2");
+const MotionH1 = motion.create("h1");
+const MotionP = motion.create("p");
 
 export const HeroText = () => {
   return (
@@ -36,8 +36,8 @@ export const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4 text-white"
       >
-        Passionate about building performant web apps with <br />
-        React, Node.js, and modern tools.
+        Passionate about building performant web apps <br /> with React,
+        Node.js, and modern tools.
       </MotionP>
     </div>
   );
