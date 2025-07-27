@@ -18,10 +18,17 @@ const projects = [
   },
   {
     name: "Keeper App",
-    year: "2025",
+    year: "2024",
     align: "left",
     image: "/images/keeper.png",
     link: "https://keeper-production-c8b5.up.railway.app",
+  },
+  {
+    name: "Casino Game Training Platform",
+    year: "2025",
+    align: "right",
+    image: "/images/CasinoGame TrainingPlatform.png",
+    link: "https://card-game-assessments.vercel.app/menu.html",
   },
 ];
 
