@@ -28,7 +28,7 @@ const projects = [
     year: "2025",
     align: "right",
     image: "/images/CasinoGame TrainingPlatform.png",
-    link: "https://card-game-assessments.vercel.app/menu.html",
+    link: "https://card-game-assessments.vercel.app/index.html",
   },
 ];
 
