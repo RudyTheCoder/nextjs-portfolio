@@ -30,6 +30,13 @@ const projects = [
     image: "/images/CasinoGame TrainingPlatform.png",
     link: "https://card-game-assessments.vercel.app/index.html",
   },
+  {
+    name: "Cover Letter Generator",
+    year: "2025",
+    align: "left",
+    image: "/images/Cover Letter Generator.png",
+    link: "https://cover-letter-flask-production.up.railway.app",
+  },
 ];
 
 export const ProjectsMain = () => {
