@@ -37,6 +37,13 @@ const projects = [
     image: "/images/Cover Letter Generator.png",
     link: "https://cover-letter-flask-production.up.railway.app",
   },
+  {
+    name: "TechFlow",
+    year: "2026",
+    align: "right",
+    image: "/images/dashboard.png",
+    link: "https://techflow-production-5843.up.railway.app",
+  },
 ];
 
 export const ProjectsMain = () => {
