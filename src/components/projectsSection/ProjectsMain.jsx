@@ -44,6 +44,13 @@ const projects = [
     image: "/images/dashboard.png",
     link: "https://techflow-production-5843.up.railway.app",
   },
+  {
+    name: "AV Simulation Dashboard",
+    year: "2026",
+    align: "left",
+    image: "/images/AV Simulation Dashboard.png",
+    link: "https://av-simulation-dashboard-production.up.railway.app",
+  },
 ];
 
 export const ProjectsMain = () => {
