@@ -28,7 +28,7 @@ const projects = [
     year: "2025",
     align: "right",
     image: "/images/CasinoGame TrainingPlatform.png",
-    link: "https://card-game-assessments-supabase.vercel.app",
+    link: "https://card-game-assessments-supabase.vercel.app/landing.html",
   },
   {
     name: "Cover Letter Generator",
