@@ -51,6 +51,13 @@ const projects = [
     image: "/images/AV Simulation Dashboard.png",
     link: "https://av-simulation-dashboard-production.up.railway.app",
   },
+  {
+    name: "AV Simulation Dashboard",
+    year: "2026",
+    align: "right",
+    image: "/images/JobScout AI.png",
+    link: "https://jobscoutai-production.up.railway.app/",
+  },
 ];
 
 export const ProjectsMain = () => {
