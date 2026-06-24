@@ -52,7 +52,7 @@ const projects = [
     link: "https://av-simulation-dashboard-production.up.railway.app",
   },
   {
-    name: "AV Simulation Dashboard",
+    name: "JobScout AI",
     year: "2026",
     align: "right",
     image: "/images/JobScout AI.png",
